@@ -3,8 +3,15 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styles: ['']
 })
 export class AppComponent {
-  title = 'hola-mundo';
+   
+  informaciones: any = [
+    {Codigo: 1, Nombre: "Ricky Jose", Apellido: "Galan Paulino", Sueldo: 20000},
+    {Codigo: 1, Nombre: "Ricky Junior", Apellido: "Galan Paulino", Sueldo: 30000},
+    {Codigo: 1, Nombre: "Ricky Joshe", Apellido: "Galan Paulino", Sueldo: 40000},
+    {Codigo: 1, Nombre: "Ricky Jordan", Apellido: "Galan Paulino", Sueldo: 50000}
+  ];
+
 }
